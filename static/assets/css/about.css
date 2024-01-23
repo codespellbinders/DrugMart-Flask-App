@@ -1,0 +1,41 @@
+body{
+    background-image: url(../img/about.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.login{
+    margin-top:10%;
+    margin-left: 25%;
+    width: 50%;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 4.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 8%;
+}
+.login input{
+    width: 95%;
+    padding: 15px;
+    margin-bottom: 8px;
+    border: none;
+    border-bottom: blue 3px solid;
+    border-radius: 8px;
+    background-color: transparent;
+    
+}
+.login input:focus{
+    border-radius: 12px;
+    border-bottom: 4px solid red;
+    border-width: 95%;
+    outline: none;
+    transition: 0.5s ease-in-out;
+    padding: 20px;
+}
+.login input::placeholder{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue;
+}
